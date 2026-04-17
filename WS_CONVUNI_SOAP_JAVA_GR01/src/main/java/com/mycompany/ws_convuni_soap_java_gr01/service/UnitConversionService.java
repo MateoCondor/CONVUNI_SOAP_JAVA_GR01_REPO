@@ -104,24 +104,45 @@ public class UnitConversionService {
     }
 
     private boolean isTemperatureUnitSupported(String unit) {
-        return "c".equals(unit) || "f".equals(unit) || "k".equals(unit);
+        return normalizeTemperatureUnit(unit) != null;
     }
 
     private double toCelsius(double value, String fromUnit) {
-        return switch (fromUnit) {
+        String normalizedUnit = normalizeTemperatureUnit(fromUnit);
+
+        return switch (normalizedUnit) {
             case "c" -> value;
             case "f" -> (value - 32.0) * 5.0 / 9.0;
             case "k" -> value - 273.15;
+            case "r" -> (value - 491.67) * 5.0 / 9.0;
+            case "re" -> value * 5.0 / 4.0;
             default -> value;
         };
     }
 
     private double fromCelsius(double value, String toUnit) {
-        return switch (toUnit) {
+        String normalizedUnit = normalizeTemperatureUnit(toUnit);
+
+        return switch (normalizedUnit) {
             case "c" -> value;
             case "f" -> (value * 9.0 / 5.0) + 32.0;
             case "k" -> value + 273.15;
+            case "r" -> (value + 273.15) * 9.0 / 5.0;
+            case "re" -> value * 4.0 / 5.0;
             default -> value;
+        };
+    }
+
+    private String normalizeTemperatureUnit(String unit) {
+        String normalized = normalize(unit);
+
+        return switch (normalized) {
+            case "c", "celsius", "centigrados", "centigrado", "centigrade" -> "c";
+            case "f", "fahrenheit", "farenheit" -> "f";
+            case "k", "kelvin" -> "k";
+            case "r", "rankine" -> "r";
+            case "re", "reaumur", "reamur" -> "re";
+            default -> null;
         };
     }
 
