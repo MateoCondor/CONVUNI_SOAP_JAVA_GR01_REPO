@@ -1,4 +1,4 @@
-package com.mycompany.ws_convuni_soap_java_gr01.resources;
+package com.mycompany.ws_convuni_bridge_rest_java_gr01.resources;
 
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
@@ -8,8 +8,8 @@ import jakarta.ws.rs.core.Response;
  *
  * @author 
  */
-@Path("jakartaee11")
-public class JakartaEE11Resource {
+@Path("jakartaee10")
+public class JakartaEE10Resource {
     
     @GET
     public Response ping(){

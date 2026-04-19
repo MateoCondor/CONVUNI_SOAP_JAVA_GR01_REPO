@@ -1,4 +1,4 @@
-package com.mycompany.ws_convuni_soap_java_gr01.model.request;
+package com.mycompany.ws_convuni_bridge_rest_java_gr01.model.request;
 
 public class ConversionRequest {
 

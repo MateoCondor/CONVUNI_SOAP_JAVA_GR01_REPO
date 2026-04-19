@@ -1,4 +1,4 @@
-package com.mycompany.ws_convuni_soap_java_gr01;
+package com.mycompany.ws_convuni_bridge_rest_java_gr01;
 
 import jakarta.ws.rs.ApplicationPath;
 import jakarta.ws.rs.core.Application;

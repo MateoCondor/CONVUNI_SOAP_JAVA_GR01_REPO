@@ -1,4 +1,4 @@
-package com.mycompany.ws_convuni_soap_java_gr01.resources;
+package com.mycompany.ws_convuni_bridge_rest_java_gr01.resources;
 
 import jakarta.ws.rs.container.ContainerRequestContext;
 import jakarta.ws.rs.container.ContainerResponseContext;
