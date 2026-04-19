@@ -1,4 +1,4 @@
-package com.mycompany.ws_convuni_soap_java_gr01.model;
+package ec.espe.monster.model;
 
 import jakarta.xml.bind.annotation.XmlAccessType;
 import jakarta.xml.bind.annotation.XmlAccessorType;

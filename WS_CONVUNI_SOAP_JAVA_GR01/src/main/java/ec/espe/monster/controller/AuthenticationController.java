@@ -1,7 +1,7 @@
-package com.mycompany.ws_convuni_soap_java_gr01.controller;
+package ec.espe.monster.controller;
 
-import com.mycompany.ws_convuni_soap_java_gr01.model.LoginResponse;
-import com.mycompany.ws_convuni_soap_java_gr01.service.AuthenticationService;
+import ec.espe.monster.model.LoginResponse;
+import ec.espe.monster.service.AuthenticationService;
 
 public class AuthenticationController {
 

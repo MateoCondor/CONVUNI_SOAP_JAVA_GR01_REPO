@@ -1,7 +1,7 @@
-package com.mycompany.ws_convuni_soap_java_gr01.controller;
+package ec.espe.monster.controller;
 
-import com.mycompany.ws_convuni_soap_java_gr01.model.ConversionResponse;
-import com.mycompany.ws_convuni_soap_java_gr01.service.UnitConversionService;
+import ec.espe.monster.model.ConversionResponse;
+import ec.espe.monster.service.UnitConversionService;
 
 public class ConversionController {
 

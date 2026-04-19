@@ -1,11 +1,11 @@
-package com.mycompany.ws_convuni_soap_java_gr01.webservice;
+package ec.espe.monster.webservice;
 
-import com.mycompany.ws_convuni_soap_java_gr01.controller.AuthenticationController;
-import com.mycompany.ws_convuni_soap_java_gr01.controller.ConversionController;
-import com.mycompany.ws_convuni_soap_java_gr01.model.ConversionResponse;
-import com.mycompany.ws_convuni_soap_java_gr01.model.LoginResponse;
-import com.mycompany.ws_convuni_soap_java_gr01.service.AuthenticationService;
-import com.mycompany.ws_convuni_soap_java_gr01.service.UnitConversionService;
+import ec.espe.monster.controller.AuthenticationController;
+import ec.espe.monster.controller.ConversionController;
+import ec.espe.monster.model.ConversionResponse;
+import ec.espe.monster.model.LoginResponse;
+import ec.espe.monster.service.AuthenticationService;
+import ec.espe.monster.service.UnitConversionService;
 import jakarta.jws.WebMethod;
 import jakarta.jws.WebParam;
 import jakarta.jws.WebService;
