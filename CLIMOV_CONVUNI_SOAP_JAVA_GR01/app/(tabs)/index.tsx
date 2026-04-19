@@ -54,7 +54,7 @@ export default function HomeScreen() {
       behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
       <View style={[styles.container, isDesktop && styles.containerDesktop]}>
         <Text variant="displaySmall" style={styles.title}>
-          {isDesktop ? 'CLIWEB' : 'CLIMOV'}
+          {isDesktop ? 'CLIWEB' : 'CLIMOV'} SOAP - JAVA GR01
         </Text>
         <Text variant="titleMedium" style={styles.subtitle}>
           Iniciar sesión
