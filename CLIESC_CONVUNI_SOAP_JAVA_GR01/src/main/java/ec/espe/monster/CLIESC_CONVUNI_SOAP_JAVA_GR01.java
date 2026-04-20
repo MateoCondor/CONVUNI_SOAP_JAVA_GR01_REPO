@@ -26,7 +26,6 @@ public class CLIESC_CONVUNI_SOAP_JAVA_GR01 {
 
             java.awt.EventQueue.invokeLater(() -> {
                 try {
-                    javax.swing.UIManager.setLookAndFeel(javax.swing.UIManager.getSystemLookAndFeelClassName());
                     LoginView loginView = new LoginView();
                     new AuthController(loginView, authService, client);
                     loginView.setVisible(true);
