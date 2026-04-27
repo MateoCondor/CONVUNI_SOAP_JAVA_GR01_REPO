@@ -1,6 +1,6 @@
-package ec.espe.monster.service;
+package ec.edu.monster.service;
 
-import ec.espe.monster.model.LoginResponse;
+import ec.edu.monster.model.LoginResponse;
 
 public class AuthenticationService {
 
