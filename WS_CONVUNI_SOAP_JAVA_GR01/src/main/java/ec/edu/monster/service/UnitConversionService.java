@@ -1,6 +1,6 @@
-package ec.espe.monster.service;
+package ec.edu.monster.service;
 
-import ec.espe.monster.model.ConversionResponse;
+import ec.edu.monster.model.ConversionResponse;
 import java.util.Map;
 
 public class UnitConversionService {

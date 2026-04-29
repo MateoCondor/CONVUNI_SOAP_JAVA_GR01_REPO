@@ -1,7 +1,7 @@
-package ec.espe.monster.controller;
+package ec.edu.monster.controller;
 
-import ec.espe.monster.model.ConversionResponse;
-import ec.espe.monster.service.UnitConversionService;
+import ec.edu.monster.model.ConversionResponse;
+import ec.edu.monster.service.UnitConversionService;
 
 public class ConversionController {
 

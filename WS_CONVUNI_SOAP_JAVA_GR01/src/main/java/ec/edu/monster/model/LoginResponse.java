@@ -1,4 +1,4 @@
-package ec.espe.monster.model;
+package ec.edu.monster.model;
 
 import jakarta.xml.bind.annotation.XmlAccessType;
 import jakarta.xml.bind.annotation.XmlAccessorType;

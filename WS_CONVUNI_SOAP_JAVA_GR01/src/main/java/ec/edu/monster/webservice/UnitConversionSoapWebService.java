@@ -1,11 +1,11 @@
-package ec.espe.monster.webservice;
+package ec.edu.monster.webservice;
 
-import ec.espe.monster.controller.AuthenticationController;
-import ec.espe.monster.controller.ConversionController;
-import ec.espe.monster.model.ConversionResponse;
-import ec.espe.monster.model.LoginResponse;
-import ec.espe.monster.service.AuthenticationService;
-import ec.espe.monster.service.UnitConversionService;
+import ec.edu.monster.controller.AuthenticationController;
+import ec.edu.monster.controller.ConversionController;
+import ec.edu.monster.model.ConversionResponse;
+import ec.edu.monster.model.LoginResponse;
+import ec.edu.monster.service.AuthenticationService;
+import ec.edu.monster.service.UnitConversionService;
 import jakarta.jws.WebMethod;
 import jakarta.jws.WebParam;
 import jakarta.jws.WebService;

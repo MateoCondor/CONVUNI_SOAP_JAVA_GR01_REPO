@@ -1,7 +1,7 @@
-package ec.espe.monster.controller;
+package ec.edu.monster.controller;
 
-import ec.espe.monster.model.LoginResponse;
-import ec.espe.monster.service.AuthenticationService;
+import ec.edu.monster.model.LoginResponse;
+import ec.edu.monster.service.AuthenticationService;
 
 public class AuthenticationController {
 
