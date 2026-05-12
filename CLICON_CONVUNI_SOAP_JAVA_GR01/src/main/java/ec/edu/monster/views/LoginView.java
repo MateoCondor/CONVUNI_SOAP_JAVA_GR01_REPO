@@ -13,6 +13,7 @@ public class LoginView {
         System.out.print("\033[H\033[2J");
         System.out.flush();
 
+        System.out.println("=== CLICON SOAP - JAVA GR01 ===");
         System.out.println("=== INICIO DE SESIÓN ===");
         System.out.print("Usuario: ");
         String user = scanner.nextLine();
