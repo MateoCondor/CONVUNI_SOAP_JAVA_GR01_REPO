@@ -1,7 +1,7 @@
 package ec.edu.monster.enums;
 
 public enum MassUnit {
-    Milligrams("mm", "Miligramos"),
+    Milligrams("mg", "Miligramos"),
     Grams("g", "Gramos"),
     Kilograms("kg", "Kilogramos"),
     Pounds("lb", "Libras"),
