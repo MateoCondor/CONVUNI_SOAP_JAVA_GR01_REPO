@@ -1,5 +1,7 @@
 package com.mycompany.ws_convuni_bridge_rest_java_gr01.resources;
 
+import org.eclipse.microprofile.openapi.annotations.Operation;
+
 import com.mycompany.ws_convuni_bridge_rest_java_gr01.model.ConversionResponse;
 import com.mycompany.ws_convuni_bridge_rest_java_gr01.model.LoginResponse;
 import com.mycompany.ws_convuni_bridge_rest_java_gr01.model.request.ConversionRequest;
@@ -22,6 +24,7 @@ public class ConversionApiBridgeResource {
 
     @POST
     @Path("login")
+    @Operation(operationId = "loginBridge")
     public Response login(LoginRequest request) {
         if (request == null) {
             return Response.status(Response.Status.BAD_REQUEST)
